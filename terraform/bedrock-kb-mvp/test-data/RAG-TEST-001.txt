@@ -1,0 +1,9 @@
+Policy ID: RAG-TEST-001
+Title: Test Password Policy
+
+Password rotation period: 90 days.
+Minimum password length: 14 characters.
+This document exists solely to validate retrieval and generation in the
+Bedrock Knowledge Base MVP. The statement above is a synthetic, unique fact
+used to prove that answers are grounded in retrieved content rather than
+the foundation model's general knowledge.
