@@ -1,0 +1,18 @@
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfvars
+!*.tfvars.example
+# .terraform.lock.hcl is deliberately NOT ignored -- HashiCorp recommends
+# committing it for reproducible provider versions across the team/CI.
+crash.log
+crash.*.log
+
+# Lambda build artifacts (archive_file output -- rebuilt on every apply)
+**/build/*.zip
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
